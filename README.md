@@ -14,6 +14,7 @@ Technology used
 C#: Programming language.
 Clean Architecture Principles: Designed with separation of concerns.
 In-Memory Game State: Maintains game state during execution.
+
 Prerequisites
 
 .NET 8 SDK
