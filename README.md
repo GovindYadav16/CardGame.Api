@@ -21,13 +21,15 @@ Prerequisites
 A code editor (e.g., Visual Studio, Visual Studio Code)
 Postman or a similar tool for testing APIs
 Steps to run
-git clone https://github.com/your-repository/card-game-api.git
+git clone [https://github.com/your-repository/card-game-api.git](https://github.com/GovindYadav16/CardGame.Api)
 cd card-game-api
 dotnet restore
 dotnet build
 dotnet run
 The API will be available at http://localhost:5000 or https://localhost:44371 by default.
-License This project is licensed under the MIT License.
+
+License 
+This project is licensed under the MIT License.
 
 Game Rules
 Turn Rules: The human player must choose a card from their hand. The computer will select the best card to win the round: If the computer has a card of the same suit and higher rank, it will play it. Otherwise, it plays any card of the same suit. If no cards of the same suit are available, the computer plays the lowest-ranked card.
